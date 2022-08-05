@@ -1,0 +1,85 @@
+<!-- Belajar Tag form Pada HTML -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan HTML</title>
+</head>
+<body>
+    <!-- Form biasa -->
+    <form>
+        <label for="Nama">Nama lengkap</label>
+        <input type="text" name="Nama" id="Nama">
+
+        <br>
+
+        <label for="KataSandi">Kata sandi</label>
+        <input type="password" name="KataSandi" id="KataSandi">
+
+        <br>
+
+        <select name="Wilayah" id="Wilayah">
+            <option value="Negara">Indonesia</option>
+            <option value="Negara">Hongkong</option>
+            <option value="Negara">Taiwan</option>
+            <option value="Negara">Brunei</option>
+        </select>
+
+        <br>
+
+        <input type="radio" name="Gender" id="Pria">
+        <label for="Pria">Pria</label>
+        <input type="radio" name="Gender" id="Wanita">
+        <label for="Wanita">Wanita</label>
+
+        <br>
+
+        <button type="submit">kirim</button>
+        <button type="reset">ulang</button>
+    </form>
+
+    <!-- form dengan table -->
+    <table border="0" cellspacing="0" cellpadding="4">
+        <form>
+            <tr>
+                <td><label for="Nama">Nama lengkap</label></td>
+                <td><input type="text" name="Nama" id="Nama"></td>
+            </tr>
+                <br>
+            <tr>
+                <td><label for="KataSandi">Kata sandi</label></td>
+                <td><input type="password" name="KataSandi" id="KataSandi"></td>
+            </tr>
+                <br>
+            <tr>
+                <td colspan="2">
+                    <select name="Wilayah" id="Wilayah">
+                        <option value="Negara">Indonesia</option>
+                        <option value="Negara">Hongkong</option>
+                        <option value="Negara">Taiwan</option>
+                        <option value="Negara">Brunei</option>
+                    </select>
+                </td>
+            </tr>
+                <br>
+            <tr>
+                <td><input type="radio" name="Gender" id="Pria"></td>
+                <td><label for="Pria">Pria</label></td>
+            </tr>
+                <br>
+            <tr>
+                <td><input type="radio" name="Gender" id="Wanita"></td>
+                <td><label for="Wanita">Wanita</label></td>
+            </tr>
+                <br>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">kirim</button>
+                    <button type="reset">ulang</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
